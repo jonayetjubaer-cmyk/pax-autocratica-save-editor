@@ -1,0 +1,61 @@
+PAX AUTOCRATICA SAVE EDITOR BINARY LICENSE
+
+Copyright (c) 2026 United Earth Enjoyer. All rights reserved.
+
+1. LICENSE GRANT
+
+Subject to these terms, you are granted a limited, non-exclusive,
+non-transferable, revocable license to download, install, and execute an
+official, unmodified binary release of Pax Autocratica Save Editor for your
+personal, non-commercial use.
+
+2. RESTRICTIONS
+
+You may not:
+
+- copy the software except for copies reasonably necessary for installation or
+  personal backup;
+- redistribute, mirror, republish, rent, lease, sublicense, sell, or otherwise
+  make the executable available to another person or service;
+- modify, patch, translate, adapt, or create derivative works from the software;
+- reverse engineer, decompile, disassemble, or attempt to recover source code,
+  except only to the limited extent such a restriction is prohibited by
+  applicable law;
+- remove or alter copyright, license, attribution, or proprietary notices; or
+- use the software for an unlawful purpose.
+
+No source-code rights are granted. Source code is not provided under this
+license.
+
+3. THIRD-PARTY SOFTWARE
+
+The executable incorporates third-party components governed by their own
+licenses. Those components are not relicensed under these proprietary terms.
+Required notices are provided in THIRD-PARTY-NOTICES.md and the accompanying
+.NET notice files.
+
+4. GAME OWNERSHIP AND AFFILIATION
+
+Pax Autocratica and related names, assets, and trademarks belong to their
+respective owners. This software is unofficial and is not affiliated with,
+endorsed by, or supported by the game's developer or publisher.
+
+5. NO WARRANTY
+
+THE SOFTWARE IS PROVIDED "AS IS" AND "AS AVAILABLE," WITHOUT WARRANTY OF ANY
+KIND, EXPRESS OR IMPLIED, INCLUDING WARRANTIES OF MERCHANTABILITY, FITNESS FOR
+A PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT. USE OF THE SOFTWARE AND ANY
+MODIFICATION OF GAME SAVES IS ENTIRELY AT YOUR OWN RISK.
+
+6. LIMITATION OF LIABILITY
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE COPYRIGHT HOLDER SHALL NOT BE LIABLE
+FOR ANY CLAIM, LOSS, SAVE CORRUPTION, LOSS OF PROGRESS, LOSS OF DATA, LOSS OF
+REVENUE, OR INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES
+ARISING FROM OR RELATED TO THE SOFTWARE OR ITS USE.
+
+7. TERMINATION
+
+This license terminates automatically if you breach these terms. Upon
+termination, you must stop using and delete all copies of the software in your
+possession or control.
