@@ -7,16 +7,15 @@ Unofficial, binary-only Windows save editor for **Pax Autocratica**.
 
 ## Download
 
-Download the current validation build from the
-[GitHub Releases page](https://github.com/jonayetjubaer-cmyk/pax-autocratica-save-editor/releases/tag/v0.3.0-beta.1).
+Download the current stable build from the
+[GitHub Releases page](https://github.com/jonayetjubaer-cmyk/pax-autocratica-save-editor/releases/latest).
 
-Direct beta download:
-[PaxSaveEditor.exe](https://github.com/jonayetjubaer-cmyk/pax-autocratica-save-editor/releases/download/v0.3.0-beta.1/PaxSaveEditor.exe)
+Direct stable download:
+[PaxSaveEditor.exe](https://github.com/jonayetjubaer-cmyk/pax-autocratica-save-editor/releases/latest/download/PaxSaveEditor.exe)
 
-> **Validation status:** v0.2.0 wrote valid database records but targeted the
-> wrong resource/health layers and allowed an unsafe credit amount. Use the
-> v0.3 beta validation build for build `0.195.x`; verify changes in-game and keep
-> the automatic backup.
+> **Compatibility:** v0.3.0 has been confirmed in-game with Pax Autocratica
+> build `0.195.x`. v0.2.0 used incorrect resource/health mappings and must not
+> be used.
 
 ## Features
 
