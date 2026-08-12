@@ -7,20 +7,28 @@ Unofficial, binary-only Windows save editor for **Pax Autocratica**.
 
 ## Download
 
-Download the latest `PaxSaveEditor.exe` from the
-[GitHub Releases page](https://github.com/jonayetjubaer-cmyk/pax-autocratica-save-editor/releases/latest).
+Download the current validation build from the
+[GitHub Releases page](https://github.com/jonayetjubaer-cmyk/pax-autocratica-save-editor/releases/tag/v0.3.0-beta.1).
 
-Direct latest download:
-[PaxSaveEditor.exe](https://github.com/jonayetjubaer-cmyk/pax-autocratica-save-editor/releases/latest/download/PaxSaveEditor.exe)
+Direct beta download:
+[PaxSaveEditor.exe](https://github.com/jonayetjubaer-cmyk/pax-autocratica-save-editor/releases/download/v0.3.0-beta.1/PaxSaveEditor.exe)
+
+> **Validation status:** v0.2.0 wrote valid database records but targeted the
+> wrong resource/health layers and allowed an unsafe credit amount. Use the
+> v0.3 beta validation build for build `0.195.x`; verify changes in-game and keep
+> the automatic backup.
 
 ## Features
 
-- Edit credits, skill points, galaxy fuel, and galaxy food.
+- Edit credits / Starbucks within the game's safe integer range.
+- Edit the three live home-base storage resources: civil components, plant
+  material, and metal.
+- Edit persisted current health; derived shield is shown read-only.
 - Edit stackable crafting materials, components, trade goods, seeds, and
   capture ammunition.
 - Add missing stackable resources from identifiers verified against the
   installed game metadata.
-- Edit common character values such as name, level, XP, health, shield, and
+- Edit common character values such as name, level, XP, current health, and
   difficulty.
 - Inspect and edit advanced LiteDB documents as extended JSON.
 - Create a timestamped backup before every write or restore.
