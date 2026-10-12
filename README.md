@@ -11,6 +11,8 @@ Unofficial, binary-only Windows save editor for **Pax Autocratica**.
 
 [Download PaxSaveEditor.exe](https://github.com/jonayetjubaer-cmyk/pax-autocratica-save-editor/releases/download/v0.5.0-beta.10/PaxSaveEditor.exe)
 
+Also available on [Nexus Mods](https://www.nexusmods.com/paxautocratica/mods/18).
+
 This beta adds owned weapon and armor editing, soldier rarity promotion and
 bulk roster edits, and clearer upgrade-material descriptions with a Blue+
 ingredient quick set. It also includes the persistent base-storage fix.
