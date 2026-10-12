@@ -7,13 +7,13 @@ Unofficial, binary-only Windows save editor for **Pax Autocratica**.
 
 ## Download
 
-### Latest beta: v0.5.0-beta.5
+### Latest beta: v0.5.0-beta.10
 
-[Download PaxSaveEditor.exe](https://github.com/jonayetjubaer-cmyk/pax-autocratica-save-editor/releases/download/v0.5.0-beta.5/PaxSaveEditor.exe)
+[Download PaxSaveEditor.exe](https://github.com/jonayetjubaer-cmyk/pax-autocratica-save-editor/releases/download/v0.5.0-beta.10/PaxSaveEditor.exe)
 
-This beta fixes civil components, plant material, and metal disappearing from
-the editor after Pax consumes its one-time resource transfer queue. The editor
-now reads and writes the persistent inventory records used by the game.
+This beta adds owned weapon and armor editing, soldier rarity promotion and
+bulk roster edits, and clearer upgrade-material descriptions with a Blue+
+ingredient quick set. It also includes the persistent base-storage fix.
 
 ### Stable: v0.3.0
 
@@ -24,9 +24,10 @@ Direct stable download:
 [PaxSaveEditor.exe](https://github.com/jonayetjubaer-cmyk/pax-autocratica-save-editor/releases/latest/download/PaxSaveEditor.exe)
 
 > **Compatibility:** v0.3.0 was confirmed in-game with Pax Autocratica build
-> `0.195.x`. v0.5.0-beta.5 has been tested against both pre-transfer and
-> post-transfer saves, including the current player save that exposed the
-> missing-storage problem. v0.2.0 must not be used.
+> `0.195.x`. The existing beta.10 integration harness passes against a local
+> save copy, including equipment, soldier rarity, bulk edits, and pre-transfer
+> and post-transfer storage checks. This does not establish compatibility with
+> every newer Early Access build. v0.2.0 must not be used.
 
 ## Features
 
@@ -39,8 +40,16 @@ Direct stable download:
 - Add missing stackable resources from identifiers verified against the
   installed game metadata.
 - Add verified weapons and consumables as valid inventory instances.
-- Edit persistent soldier combat and work stats, level, health, needs, morale,
-  hunger, fatigue, and recovery values.
+- Edit owned weapons and armor: rarity, equipment level, and verified
+  slot-compatible bonus stats and their levels.
+- Edit persistent soldier name, level, XP, needs, morale, wage, personal gold,
+  and ten work stats. Combat HP, shield, and damage remain game-derived.
+- Promote soldier rarity from White through Orange using the game's normal,
+  elite, and boss thresholds while preserving existing affixes.
+- Apply selected progression, needs/morale, economy, and work-stat groups to
+  the complete roster, or bulk-promote its rarity, in one backup-first edit.
+- Choose upgrade materials by verified family, rank/grade, and purpose, or
+  stage the Blue+ upgrade-ingredient set before saving.
 - Heal soldiers and clear persistent injury, disability, illness, fatigue, and
   breakdown conditions while preserving game sentinel states.
 - Duplicate persistent soldiers with unique names and matching inventory
@@ -58,8 +67,9 @@ Direct stable download:
 3. Run the executable. It automatically locates the newest save.
 4. Open **Resources** to edit credits, skill points, and inventory quantities.
 5. Select **Save resources & skill points**. A backup is created automatically.
-6. Open **Soldiers** to edit, heal, or duplicate home-station soldiers.
+6. Open **Soldiers** to edit, promote, heal, bulk-update, or duplicate home-station soldiers.
 7. Open **Add items** to add verified weapons or consumables.
+8. Open **Equipment** to edit owned weapon and armor rarity, level, and bonus stats.
 
 Backups are stored under:
 
@@ -73,7 +83,7 @@ Backups are stored under:
 - The executable is self-contained; no separate .NET installation is required.
 - The executable is currently unsigned. Windows SmartScreen may display an
   unrecognized-app warning. Verify its SHA-256 checksum against
-  [SHA256SUMS.txt](SHA256SUMS.txt) before running it.
+  the `SHA256SUMS.txt` attached to your selected release before running it.
 - Editing a save can affect progression or achievements. Keep backups.
 - Steam Cloud may synchronize the edited file when the game starts again.
 
